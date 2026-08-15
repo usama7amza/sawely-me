@@ -1,4 +1,2 @@
-import Brand from "./Brand";
-export default function Footer() {
-  return <footer><div className="container footer-inner"><Brand light/><div><p dir="ltr">AI WhatsApp Booking Agent</p><a href="https://me.sawely.com" dir="ltr">me.sawely.com</a></div></div></footer>;
-}
+import Brand from "./Brand";import{DEMO_URL,WHATSAPP_URL}from"@/config/site";
+export default function Footer(){return <footer><div className="container footer-grid"><div className="footer-brand"><Brand light/><p>مساعد واتساب يحوّل استفسارات العملاء إلى حجوزات، على مدار الساعة.</p></div><div><h2>روابط سريعة</h2><a href="#benefits">الفوائد</a><a href="#industries">الأنشطة</a><a href="#how">كيف يعمل؟</a></div><div><h2>الخدمات</h2><a href={DEMO_URL}>تجربة الديمو</a><a href="#demo">حجز المواعيد</a><a href="#demo">أتمتة خدمة العملاء</a></div><div><h2>تواصل معنا</h2><a href={WHATSAPP_URL}>واتساب: 96567795155+</a><a href="mailto:hello@sawely.com">hello@sawely.com</a><span>الكويت ودول الخليج</span></div></div><div className="container copyright"><span>© {new Date().getFullYear()} Sawely. جميع الحقوق محفوظة.</span><span>صُنع للأعمال التي تهتم بعملائها.</span></div></footer>}
