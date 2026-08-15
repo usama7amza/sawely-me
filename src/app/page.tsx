@@ -7,5 +7,5 @@ import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
-  return <><main><Header /><ProblemSection /><SolutionSection /><BenefitsSection /><AboutSawely /><CTASection /></main><Footer /></>;
+  return <><main><Header /><ProblemSection /><SolutionSection /><BenefitsSection /><div className="closing"><AboutSawely /><CTASection /></div></main><Footer /></>;
 }
