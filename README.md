@@ -1,6 +1,6 @@
 # SAWELY Landing Page
 
-Arabic-first static landing page for [me.sawely.com](https://me.sawely.com), built with Next.js, TypeScript, and CSS. It links to the [live demo](https://demo.sawely.com/) and [WhatsApp](https://wa.me/96567795155).
+Arabic-first static landing page for [me.sawely.com](https://me.sawely.com), built with Next.js, TypeScript, and CSS. It links to the [live demo](https://demo.sawely.com/) and Sawely's WhatsApp CTA, configured centrally in `src/config/site.ts`.
 
 ## Local development
 
